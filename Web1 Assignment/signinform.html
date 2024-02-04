@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            background-color: #CCD1D1;
+        }
+        .navbar {
+            display: flex;
+            color: white;
+            padding: 1.2rem;
+            justify-content: space-between;
+            position: sticky;
+            z-index: 1;
+            height: 10vh;
+        }
+        .logo {
+            align-items: center;
+            display: flex;
+        }
+        .navbarbtn {
+            align-items: center;
+            display: flex;
+        }
+        .btn {
+            margin: 0 0.25rem;
+            color: white;
+            padding: 0.75rem;
+            background-color: #566573;
+            border-color: rgb(14, 236, 14);
+            border-radius: 8px;
+        }
+        .login-form {
+            width: 350px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: white;
+            box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 32px;   
+        }
+        .login-form input {
+            padding: 14px 3px;
+            margin: 8px 2px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+            box-shadow: inset 0px 2px 2px rgba(43, 41, 41, 0.614);
+        }
+        .login-form input:focus {
+            box-shadow: inset;
+        }
+        .Sign-btn {
+            background-color: rgb(11, 135, 135);
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+        }
+        .Sign-btn:hover {
+            opacity: 0.8;
+            background-color: #0989acf9;
+        }
+        .Sign-btn:active {
+            opacity: 0.6;
+        }
+        .fpsw {
+            background-color: #526272;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+        }
+        .fpsw:hover {
+            opacity: 0.9;
+            background-color: #4e677e;
+        }
+        .fpsw:active {
+            opacity: 0.7;
+        }
+        input {
+            box-shadow: 5px 7px 5px gray insert;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #566573;">
+        <nav class="navbar">
+            <div class="logo"><a href="index.html" style="text-decoration: none;">GamCourse</a></div>
+            <div class="navbarbtn">
+                <a class="btn">Sign In</a>
+                <a href="#"><button class="btn">Register</button></a>
+            </div>
+        </nav>
+    </header>
+    <form class="login-form">
+        <h2 class="login-heading">Login</h2>
+        <div class="container">
+            <input type="text" placeholder="Username" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required>
+
+            <button class="Sign-btn" type="submit">Sign In</button>
+            <hr>
+            <button class="fpsw">
+                Forgot Password
+            </button>
+            <a href="#">New to GamCourse?</a>
+        </div>
+    </form>
+</body>
+</html>

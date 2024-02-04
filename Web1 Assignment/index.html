@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamCourse Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            color: white;
+            padding: 1.2rem;
+            justify-content: space-between;
+            position: sticky;
+            z-index: 1;
+            height: 10vh;
+        }
+        .logo {
+            align-items: center;
+            display: flex;
+        }
+        .navbarbtn {
+            align-items: center;
+            display: flex;
+        }
+        .btn {
+            margin: 0 0.25rem;
+            color: white;
+            padding: 0.75rem;
+            background-color: #566573;
+            border-color: rgb(14, 236, 14);
+            border-radius: 8px;
+        }
+        .message {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+        }
+        .loginbtn {
+            background-color: rgb(14, 236, 14);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            width: 70px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .loginbtn:hover {
+            opacity: 0.8;
+            background-color: green;
+        }
+        .loginbtn:active {
+            opacity: 0.7;
+        }
+        hr {
+            color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #566573;">
+        <nav class="navbar">
+            <div class="logo"><a>YourSite</a></div>
+            <div class="navbarbtn">
+                <a href="./signinform.html" class="btn" style="text-decoration: none;">Sign In</a>
+                <a href="#"><button class="btn">Register</button></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="message">
+            <h1 class="heading">Where Developers Collaborate</h1>
+            <p class="moto">Build better code with YourSite. Share, discuss and manage your projects</p>
+            <button class="loginbtn">
+                <a href="./signinform.html" style="text-decoration: none;">Sign In</a>
+            </button>
+        </div>
+    </section>
+</body>
+</html>

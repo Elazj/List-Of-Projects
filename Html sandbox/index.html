@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the our sewing Website">
+  <meta name="keywords" content="SewBox, Leman Street, Banjul, The Gambia">
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>SewBox Website | Welcome</title>
+</head>
+<style>
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Main Styling */
+  html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  p {
+    margin: 10px 0;
+  }
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+  h1, h2, h3 {
+    padding-bottom: 28px;
+  }
+  /* Nav-bar */
+  #nav-bar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+  }
+  #nav-bar a {
+    color: #fff;
+  }
+  #nav-bar h1 {
+    float: left;
+    padding-top: 20px;
+    color: #333;
+  }
+  #nav-bar ul {
+    list-style: none;
+    float: right;
+  }
+  #nav-bar ul li {
+    float: left;
+  }
+  #nav-bar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  #nav-bar h1 a.logobtn {
+    color: yellow;
+  }
+ #nav-bar ul li a:hover, 
+ #nav-bar ul li a.current {
+  background-color: #444;
+  color: yellow;
+ }
+ /* Showcase */
+#showcase {
+  background: url('pexels-wallace-chuck-2973392.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+
+}
+#showcase .showcase-content {
+  color: #333;
+  text-align: center;
+  padding-top: 170px;
+}
+.text-primary {
+  color: yellow;
+}
+.lead {
+  color: #fff;
+}
+.clr {
+ clear: both;
+}
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('images.jfif');
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: yellow;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-primary {
+  background: yellow;
+  color: #333;
+}
+.search-bar {
+  border: 1px solid #ccc;
+  display: block;
+  padding: 10px;
+  max-width: 500px;
+  margin: auto;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+}
+
+</style>
+<body>
+  <header>
+    <nav id="nav-bar">
+      <div class="container">
+        <h1 class="logo"><a class="logobtn" href="index.html">SewBox</a></h1> 
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="showcase">
+      <div class="container">
+        <div class="showcase-content">
+          <h1><span class="text-primary">Welcome</span> To SewBox WebPage</h1>
+          <input class="search-bar" type="text" placeholder="Search...." name="search">
+          <p class="lead">we're delighted to have you here. Explore our products and services, and feel 
+            free to reach out if you have any questions
+          </p>
+          <a href="login.html" class="btn">Login</a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <section id="home-info" class="bg-dark">
+    <div class="info-img"></div>
+    <div class="info-content">
+      <h2><span class="text-primary">The History</span> Of Our Company</h2>
+      <p>Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Aperiam molestiae unde 
+        exercitationem sint maiores, repellendus 
+        repudiandae 
+        corrupti deserunt expedita quo!
+      </p>
+      <a href="about us.html" class="btn btn-light">Read More...</a>
+    </div>
+  </section>
+  <div class="clr"></div>
+  <footer id="main-footer">
+    <p>&copy; All Rights Reserved 2023</p>
+  </footer>
+</body>
+</html>

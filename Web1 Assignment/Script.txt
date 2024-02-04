@@ -1,0 +1,40 @@
+<!-- Product Details -->
+   <section id="prod-details" class="section-p1">
+    <div class="single-prod-img">
+      <img src="img/mh-2.webp" width="100%" id="MainImg" alt="">
+
+      <div class="small-img-sec">
+        <div class="small-img-col">
+          <img src="img/mh-5.jfif" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="img/image (8).jfif" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="img/mh-07.webp" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="img/mh-2.webp" width="100%" class="small-img" alt="">
+        </div>
+      </div>
+    </div>
+
+
+<!-- JavaScript -->
+<script>
+    var MainImg = document.getElementsByClassName('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick = function(){
+      MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+      MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+      MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+      MainImg.src = smallimg[3].src;
+    }
+   </script>

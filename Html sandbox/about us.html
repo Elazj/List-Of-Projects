@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="cart.html">
+  <title>SewBox | About Us</title>
+  <style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main Styling */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+  
+h1, h2, h3 {
+  padding-bottom: 28px;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* Nav-bar */
+#nav-bar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+#nav-bar a {
+  color: #fff;
+}
+#nav-bar h1 {
+  float: left;
+  padding-top: 20px;
+  color: #333;
+}
+#nav-bar ul {
+  list-style: none;
+  float: right;
+}
+#nav-bar ul li {
+  float: left;
+}
+#nav-bar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#nav-bar h1 a.logobtn {
+  color: yellow;
+}
+ #nav-bar ul li a:hover, 
+ #nav-bar ul li a.current {
+  background-color: #444;
+  color: yellow;
+}
+.clr {
+ clear: both;
+}
+/* padding */
+.py-1 { padding: 10px 0;}
+.py-2{ padding: 10px 0;}
+.py-3 { padding: 10px 0;}
+/* About Info */
+#About-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#About-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+/* main footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="nav-bar">
+      <div class="container">
+        <h1 class="logo"><a class="logobtn" href="index.html">SewBox</a></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a class="current" href="about us.html">About Us</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <section id="about-info" class="bg-light py-3"></section>
+    <div class="container">
+      <div class="info-left">
+        <h1><span class="text-primary">About</span> SewBox</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sed, est nulla accusantium sequi odit aperiam
+          impedit beatae ex quam magni eos ullam ipsa nam, 
+          voluptatem enim voluptas dignissimos, esse adipisci!
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Quidem eos qui nobis officiis 
+          sint at eum? 
+          A consequuntur illo pariatur.
+        </p>
+      </div>
+      <div class="info-right">
+        <img src="sewing company.jpg" alt="SewBox" height="500px" width="1100px">
+      </div>
+    </div>
+    <div class="clr"></div>
+  <footer id="main-footer">
+    <p>&copy; All Rights Reserved 2023</p>
+  </footer>
+</body>
+</html>
